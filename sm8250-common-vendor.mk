@@ -1477,7 +1477,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     embmslibrary \
     qcrilhook \
-    qti-telephony-common \
     vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
     vendor.qti.ims.rcsconfig-V1.0-java \
