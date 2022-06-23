@@ -6,6 +6,27 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "sound_trigger.primary.kona",
+	owner: "sony",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.kona.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/sound_trigger.primary.kona.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libfastcvopt",
 	owner: "sony",
 	strip: {
