@@ -164,7 +164,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
@@ -599,7 +598,6 @@ PRODUCT_PACKAGES += \
     libsysmon_cdsp_skel \
     libta \
     libtime_genoff \
-    libtzdrmgenprov \
     libvppclient \
     libvpphcp \
     libvpphvx \
@@ -792,7 +790,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
-    vendor.qti.hardware.qseecom@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     lib-imscmservice \
@@ -1065,7 +1062,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qseecom@1.0_vendor \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -1199,7 +1195,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.dynamicdds@1.0 \
     vendor.qti.hardware.data.iwlan@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.ims.callinfo@1.0 \
@@ -1273,7 +1268,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
