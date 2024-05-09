@@ -462,13 +462,6 @@ dex_import {
 }
 
 dex_import {
-	name: "qti-telephony-common",
-	owner: "sony",
-	jars: ["proprietary/system_ext/framework/qti-telephony-common.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.hardware.data.cne.internal.api-V1.0-java",
 	owner: "sony",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar"],
