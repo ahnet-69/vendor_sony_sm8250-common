@@ -401,28 +401,18 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libFlacSwDec \
     libHpEqApi \
     libMiscTaWrapper \
-    libMpeg4SwEncoder \
-    libMpeghSwEnc \
     libOARenderer \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxEvrcDec \
     libOmxG711Dec \
-    libOmxMpeghEncSw \
     libOmxQcelp13Dec \
-    libOmxSwVdec \
-    libOmxSwVencMpeg4 \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
@@ -506,7 +496,6 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_qtiflacdec \
     libsuntory \
     libswiqisettinghelper \
-    libswvdec \
     libsymphony-cpu \
     libsysmon_cdsp_skel \
     libta \
@@ -533,7 +522,6 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.swiqi@1.0 \
     libFileMux_proprietary \
     libOmxDsdDec \
-    libOmxMpeghDecSw \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
@@ -952,7 +940,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.egistec.hardware.fingerprint@4.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
