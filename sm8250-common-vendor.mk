@@ -10,8 +10,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/sm8250-common/proprietary/odm/bin/sony_ext_uim_ctrl:$(TARGET_COPY_OUT_ODM)/bin/sony_ext_uim_ctrl \
     vendor/sony/sm8250-common/proprietary/odm/etc/init/sony_ext_uim_ctrl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/sony_ext_uim_ctrl.rc \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/change.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/change.cfg \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/sony/sm8250-common/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/sony/sm8250-common/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libMiscTaWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiscTaWrapper.so \
@@ -111,611 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/sony/sm8250-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/sony/sm8250-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16631040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_1_0x16632000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16631040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_2_0x16632000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16631040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_4_0x16632000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16631040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16631040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16632000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_0_EEPROM_FW_DATA_5_0x16632000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16641040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_1_0x16642000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16641040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_2_0x16642000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16641040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_4_0x16642000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16641040.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16641040.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16642000.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CERVIN_1_EEPROM_FW_DATA_5_0x16642000.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/bokeh_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/color_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/dataflow.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/exposure_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/exposure_ctrl_diagram.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/eye_stabilizer.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/face_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/face_detector_soda.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/flicker_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/food_comp_yummy.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/food_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/food_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_bps_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_bps_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_fusion_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_fusion_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_bincorr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_bincorr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_gtm10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_gtm10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_hdr30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_hdr30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_lsc40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_lsc40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ife_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ife_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_cv12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_cv12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_gamma15.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_gamma15.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_ltm14.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_ltm14.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_sce11.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_sce11.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tdl10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tdl10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hal_ctrl_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hal_ctrl_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/hdr_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/idt_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_cheesescone.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_marble.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_raisin.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/image_conv_spica.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/image_conv_spica.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/lens_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/lens_ctrl_common.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/main_subject_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/main_subject_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/motion_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/motion_detector_sumomo.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/motion_estimation.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/object_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/object_tracker.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/prc_image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_parisbrest.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/raw_proc_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/raw_proc_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmb_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmb_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/rpmp_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/rpmp_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/CHI08BS1/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/CHI08BS1/scene_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/bokeh_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/color_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/dataflow.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/exposure_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/exposure_ctrl_diagram.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/eye_stabilizer.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/face_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/face_detector_soda.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/flicker_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/food_comp_yummy.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/food_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/food_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_bps_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_bps_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_fusion_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_fusion_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_bincorr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_bincorr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_gtm10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_gtm10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_hdr30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_hdr30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_lsc40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_lsc40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ife_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ife_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_cv12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_cv12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_gamma15.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_gamma15.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_ltm14.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_ltm14.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_sce11.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_sce11.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tdl10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tdl10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hal_ctrl_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hal_ctrl_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/hdr_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/idt_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_cheesescone.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_marble.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_raisin.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/image_conv_spica.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/image_conv_spica.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/lens_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/lens_ctrl_common.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/main_subject_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/main_subject_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/motion_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/motion_detector_sumomo.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/motion_estimation.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/object_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/object_tracker.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/prc_image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_parisbrest.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/raw_proc_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/raw_proc_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmb_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmb_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/rpmp_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/rpmp_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BC1/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BC1/scene_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/bokeh_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/color_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/dataflow.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/exposure_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/exposure_ctrl_diagram.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/eye_stabilizer.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/face_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/face_detector_soda.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/flicker_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/food_comp_yummy.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/food_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/food_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_bps_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_bps_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_fusion_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_fusion_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_bincorr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_bincorr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_gtm10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_gtm10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_hdr30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_hdr30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_lsc40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_lsc40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ife_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ife_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_cv12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_cv12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_gamma15.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_gamma15.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_ltm14.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_ltm14.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_sce11.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_sce11.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tdl10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tdl10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hal_ctrl_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hal_ctrl_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/hdr_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/idt_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_cheesescone.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_marble.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_raisin.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/image_conv_spica.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/image_conv_spica.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/lens_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/lens_ctrl_common.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/main_subject_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/main_subject_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/motion_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/motion_detector_sumomo.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/motion_estimation.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/object_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/object_tracker.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/prc_image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_parisbrest.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/raw_proc_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/raw_proc_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmb_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmb_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/rpmp_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/rpmp_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM12BS6/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM12BS6/scene_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/bokeh_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/bokeh_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/color_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/color_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/dataflow.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/exposure_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/exposure_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/exposure_ctrl_diagram.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/exposure_ctrl_diagram.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/eye_stabilizer.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/eye_stabilizer.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/face_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/face_detector_soda.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/face_detector_soda.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/flicker_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/flicker_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/food_comp_yummy.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/food_comp_yummy.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/food_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/food_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_bps_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_bps_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_fusion_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_fusion_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_bincorr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_bincorr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_gamma16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_gamma16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_gtm10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_gtm10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_hdr30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_hdr30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_lsc40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_lsc40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ife_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ife_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_cc13.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_cc13.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_cst12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_cst12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_cv12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_cv12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_gamma15.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_gamma15.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_ltm14.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_ltm14.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_sce11.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_sce11.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tdl10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tdl10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hal_ctrl_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hal_ctrl_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/hdr_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/hdr_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/idt_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/idt_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_cheesescone.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_cheesescone.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_marble.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_marble.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_raisin.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_raisin.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/image_conv_spica.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/image_conv_spica.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/lens_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/lens_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/lens_ctrl_common.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/lens_ctrl_common.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/main_subject_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/main_subject_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/motion_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/motion_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/motion_detector_sumomo.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/motion_detector_sumomo.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/motion_estimation.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/motion_estimation.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/object_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/object_tracker.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/object_tracker.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/prc_image_conv.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/prc_image_conv.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_parisbrest.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_parisbrest.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_conv_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_conv_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_platform.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_platform.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/raw_proc_platform_nree.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/raw_proc_platform_nree.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_abf40.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_abf40.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_abf40_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_abf40_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_bls12.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_bls12.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_demosaic36.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_demosaic36.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_gic30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_gic30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_linearization34.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_linearization34.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_bps_pdpc30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_bps_pdpc30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmb_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmb_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_anr10_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_anr10_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_anr10_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_anr10_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_anr10_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_anr10_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_anr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_anr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_anr10_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_anr10_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_asf30.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_asf30.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_cs20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_cs20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_gra10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_gra10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_hnr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_hnr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_hnr10_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_hnr10_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_lenr10.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_lenr10.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_tf20_dc04.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_tf20_dc04.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_tf20_dc16.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_tf20_dc16.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_tf20_dc64.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_tf20_dc64.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_tf20_disable.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_tf20_disable.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_tf20_full.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_tf20_full.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/rpmp_ipe_upscale20.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/rpmp_ipe_upscale20.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SEM20BS1/scene_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SEM20BS1/scene_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SODA_HMN_BN0010-0001:$(TARGET_COPY_OUT_VENDOR)/camera/SODA_HMN_BN0010-0001 \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SUNHQCN1/dataflow.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SUNHQCN1/dataflow.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/SUNHQCN1/depth_comp.dat:$(TARGET_COPY_OUT_VENDOR)/camera/SUNHQCN1/depth_comp.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/data.zip:$(TARGET_COPY_OUT_VENDOR)/camera/data.zip \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/default.dat:$(TARGET_COPY_OUT_VENDOR)/camera/default.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/display_ctrl.dat:$(TARGET_COPY_OUT_VENDOR)/camera/display_ctrl.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/file_animal_eye_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_animal_eye_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/file_face_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_face_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/file_main_subject_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_main_subject_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/file_object_detector.dat:$(TARGET_COPY_OUT_VENDOR)/camera/file_object_detector.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/flash.dat:$(TARGET_COPY_OUT_VENDOR)/camera/flash.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/optical_axis.dat:$(TARGET_COPY_OUT_VENDOR)/camera/optical_axis.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/optical_zoom.dat:$(TARGET_COPY_OUT_VENDOR)/camera/optical_zoom.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/snapshot.dat:$(TARGET_COPY_OUT_VENDOR)/camera/snapshot.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/streaming.dat:$(TARGET_COPY_OUT_VENDOR)/camera/streaming.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/supported.dat:$(TARGET_COPY_OUT_VENDOR)/camera/supported.dat \
-    vendor/sony/sm8250-common/proprietary/vendor/camera/version.dat:$(TARGET_COPY_OUT_VENDOR)/camera/version.dat \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -735,14 +128,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Bluetooth_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_General_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Global_cal.acdb \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Handset_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Hdmi_cal.acdb \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Headset_cal.acdb \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Speaker_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_edo.qwsp \
     vendor/sony/sm8250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/chg-pwr-service.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/chg-pwr-service.cfg \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -860,7 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_1.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/sony/sm8250-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -875,7 +263,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmp380_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_ak991x_0_somc_platform.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0_somc_platform.json \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_ak991x_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_ak991x_0_somc_product.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_amd_sw_disabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_amd_sw_disabled.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bmp380_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_bu52053nvx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_bu52053nvx_0.json \
@@ -887,7 +274,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_irq.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_irq.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_lps22hh_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lps22hh_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_lsm6dsm_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dsm_0.json \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_lsm6dsm_0_somc_product.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dsm_0_somc_product.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_lsm6dst_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dst_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_lsm6dst_1.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_lsm6dst_1.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/kona_power_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kona_power_0.json \
@@ -1015,62 +401,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/bdwlan.e16:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e16 \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/bdwlan.e17:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.e17 \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan.elf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/wifi_txpower.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_txpower.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_ComboCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_FrontCHICam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_NoCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_NoCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_SWideCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_TeleCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_WideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_WideCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_44k_defaultCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_ComboCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_FrontCHICam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_NoCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_NoCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_SWideCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_TeleCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_WideCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_WideCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_48k_defaultCam.tbl \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/zoom_noise_reduction/znr_parameter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/zoom_noise_reduction/znr_parameter.xml \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-cali.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/L-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/L-cs35l41-dsp1-spk-prot.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-cali.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-cali.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/R-cs35l41-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/R-cs35l41-dsp1-spk-prot.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a615_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.elf \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a615_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.mdt \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a619_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a619_gmu.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a620_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b00 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a620_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b01 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a620_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.b02 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a620_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.elf \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a620_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a620_zap.mdt \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b00 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b01 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.b02 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.elf \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_zap.mdt \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/cs35l41-dsp1-spk-cali.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-cali.wmfw \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/cs35l41-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l41-dsp1-spk-prot.wmfw \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b00 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b01 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b02 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b03 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b04 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b05 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b06 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.b07 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/egista.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/egista.mdt \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -1081,7 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_uc.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b01 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/touch_module_id_0x94.img:$(TARGET_COPY_OUT_VENDOR)/firmware/touch_module_id_0x94.img \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b00 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b01 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b02 \
@@ -1091,15 +423,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b06 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b07 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.mdt \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b00 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b01 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b02 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b03 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b04 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b05 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b06 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.b07 \
-    vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsecuredata.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsecuredata.mdt \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b00 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b01 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzsuntory.b02 \
@@ -1386,7 +709,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libsdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdsprpc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnpe_dsp_domains_v2.so \
-    vendor/sony/sm8250-common/proprietary/vendor/lib/libsomc_thermal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomc_thermal.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libsony3daudioeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsony3daudioeffect.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libsonydseehxwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsonydseehxwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspcom.so \
@@ -1537,9 +859,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx519.bin \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5k5e9yu05.bin \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx476.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_imx363.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_imx363.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_imx557.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_imx557.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.cervin_s5k3t2.bin \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.rose_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.rose_s5k4h7.bin \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
@@ -1924,7 +1243,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_spicarsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_spicarsc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sumomo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sumomo.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sumomorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sumomorsc.so \
-    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_thermal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_thermal.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_yummy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_yummy.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_yummyrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_yummyrsc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony3daudioeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony3daudioeffect.so \
