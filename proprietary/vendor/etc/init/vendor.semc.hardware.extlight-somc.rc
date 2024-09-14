@@ -1,0 +1,5 @@
+service vendor.extlight-somc /vendor/bin/hw/vendor.semc.hardware.extlight-service.somc
+    class hal
+    user system
+    group system
+    shutdown critical
