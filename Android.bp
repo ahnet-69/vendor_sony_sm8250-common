@@ -177,9 +177,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -188,9 +185,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -199,9 +193,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -210,9 +201,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -222,9 +210,6 @@ android_app_import {
 	apk: "proprietary/vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	soc_specific: true,
 }
 
@@ -233,9 +218,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
 }
@@ -245,9 +227,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
 }
@@ -257,9 +236,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -268,9 +244,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/app/QtiTelephony/QtiTelephony.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -279,9 +252,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -290,9 +260,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/app/embms/embms.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -301,9 +268,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
 }
 
@@ -312,9 +276,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -324,9 +285,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -336,9 +294,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/ims/ims.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -348,9 +303,6 @@ android_app_import {
 	owner: "sony",
 	apk: "proprietary/system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	system_ext_specific: true,
 }
@@ -550,7 +502,7 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.gnss@2.1-service-qti",
+	name: "android.hardware.gnss@2.1-service-qti.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
 	filename_from_src: true,
@@ -559,7 +511,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
+	name: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
 	filename_from_src: true,
@@ -568,7 +520,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.neuralnetworks@1.3-service-qti",
+	name: "android.hardware.neuralnetworks@1.3-service-qti.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml",
 	filename_from_src: true,
@@ -577,7 +529,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	name: "manifest_android.hardware.drm@1.3-service.widevine.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
 	filename_from_src: true,
@@ -586,7 +538,7 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.gnss@4.0-service",
+	name: "vendor.qti.gnss@4.0-service.xml",
 	owner: "sony",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
 	filename_from_src: true,
