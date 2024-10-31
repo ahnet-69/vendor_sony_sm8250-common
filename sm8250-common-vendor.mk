@@ -657,7 +657,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwms.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
-    vendor/sony/sm8250-common/proprietary/vendor/lib/libznr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libznr.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libapps_mem_heap.so \
@@ -682,9 +681,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/rfsa/adsp/libsomc_pdnserv_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsomc_pdnserv_skel.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/rfsa/adsp/libstdc++.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libstdc++.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/sony/sm8250-common/proprietary/vendor/lib/soundfx/libdnnrwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdnnrwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
-    vendor/sony/sm8250-common/proprietary/vendor/lib/soundfx/libznrwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libznrwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.slm@1.0.so \
