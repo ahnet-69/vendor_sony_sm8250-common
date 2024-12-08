@@ -530,7 +530,6 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libcdsp_default_listener \
     libcdsprpc \
-    libdapparamstorage \
     libdevice_security_vendor \
     libdiag \
     libdpmqmihal \
@@ -576,7 +575,6 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libqrtr \
     libqtigef \
-    librebuffering \
     librpmb \
     libscveCommon \
     libscveCommon_stub \
@@ -619,8 +617,6 @@ PRODUCT_PACKAGES += \
     libqcreverb \
     libqcvirt \
     libshoebox \
-    libswdap \
-    vendor.dolby.hardware.dms@1.0 \
     vendor.qti.data.slm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -641,7 +637,6 @@ PRODUCT_PACKAGES += \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
-    libaudiosnpewrapper \
     libcppf \
     libfastcrc \
     libmm-hdcpmgr \
@@ -665,9 +660,6 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_proprietary \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
-    libznr \
-    libdnnrwrapper \
-    libznrwrapper \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qti.eeprom.truly_cmb433 \
@@ -939,6 +931,7 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqtikeymaster4 \
     librcc \
+    librebuffering \
     libril-qc-hal-qmi \
     libril-qc-logger \
     libril-qc-ltedirectdisc \
