@@ -402,6 +402,53 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "ftm_fm_lib",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/ftm_fm_lib.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbase",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "vendor.qti.hardware.fm@1.0_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/ftm_fm_lib.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libbase",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "vendor.qti.hardware.fm@1.0_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "android.hardware.bluetooth@1.0-impl-qti",
     owner: "sony",
     strip: {
