@@ -1032,8 +1032,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.ant@1.0 \
     fm_helium \
     libfm-hci \
-    libmmosal \
-    libmmparser_lite \
     libmmrtpdecoder \
     libmmrtpencoder \
     libwfdclient \
