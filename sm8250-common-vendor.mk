@@ -1362,3 +1362,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     vendor_firmware_qca6390_regdb_bin
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
