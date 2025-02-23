@@ -417,6 +417,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudioalsa \
+    libaudiokeymgr \
     libaudioparsers \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -468,6 +469,7 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmiservices \
     libqtigef \
+    librebuffering \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -510,6 +512,7 @@ PRODUCT_PACKAGES += \
     libFileMux_proprietary \
     libadm \
     libadpcmdec \
+    libaudiosnpewrapper \
     libfastcrc \
     libmm-hdcpmgr \
     libsmwrapper \
@@ -726,7 +729,6 @@ PRODUCT_PACKAGES += \
     libcvp2 \
     libcvp2_hfi \
     libcvp_common \
-    libdapparamstorage \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
@@ -810,7 +812,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqtikeymaster4 \
     librcc \
-    librebuffering \
     libril-qc-hal-qmi \
     libril-qc-logger \
     libril-qc-ltedirectdisc \
