@@ -117,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/dsx_param_file.bin:$(TARGET_COPY_OUT_VENDOR)/etc/dsx_param_file.bin \
     vendor/sony/sm8250-common/proprietary/vendor/etc/idd.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/idd.fstab \
     vendor/sony/sm8250-common/proprietary/vendor/etc/iddd_user.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd_user.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
@@ -393,6 +394,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
+    audio.primary.kona \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
@@ -410,6 +412,7 @@ PRODUCT_PACKAGES += \
     libSForceVSE \
     libSNPE \
     libVkLayer_q3dtools \
+    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -422,6 +425,7 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudiokeymgr \
     libaudioparsers \
+    libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
@@ -432,9 +436,11 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libcdsp_default_listener \
     libcdsprpc \
+    libcomprcapture \
     libdevice_security_vendor \
     libdiag \
     libdpmqmihal \
+    libexthwplugin \
     libfastcvdsp_stub \
     libfastcvopt \
     libgcs-calwrapper \
@@ -445,7 +451,9 @@ PRODUCT_PACKAGES += \
     libgsl \
     libhdcprx_module \
     libhdcptx_module \
+    libhdmiedid \
     libhdmipassthru \
+    libhfp \
     libiVptApi \
     libiVptHkiDec \
     libiVptLibC \
@@ -479,10 +487,12 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
+    libsndmonitor \
     libsnpe_dsp_domains_v2 \
     libsoc_helper \
     libsony3daudioeffect \
     libsonydseehxwrapper \
+    libspkrprot \
     libstagefright_hdcp \
     libstagefright_soft_qtiflacdec \
     libsuntory \

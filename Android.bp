@@ -461,6 +461,76 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "audio.primary.kona",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/hw/audio.primary.kona.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libaudioutils",
+                "libexpat",
+                "libhidlbase",
+                "libprocessgroup",
+                "libutils",
+                "libsony3daudioeffect",
+                "libsonydseehxwrapper",
+                "libeffects",
+                "libaudio_log_utils",
+                "libmiscta",
+                "android.hardware.power@1.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/hw/audio.primary.kona.so",
+            ],
+            shared_libs: [
+                "libbase",
+                "liblog",
+                "libcutils",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libaudioutils",
+                "libexpat",
+                "libhidlbase",
+                "libprocessgroup",
+                "libutils",
+                "libsony3daudioeffect",
+                "libsonydseehxwrapper",
+                "libeffects",
+                "libaudio_log_utils",
+                "libmiscta",
+                "android.hardware.power@1.2",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.bluetooth_audio@2.0-impl",
     owner: "sony",
     strip: {
@@ -1298,6 +1368,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "liba2dpoffload",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/liba2dpoffload.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liba2dpoffload.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libacdb-fts",
     owner: "sony",
     strip: {
@@ -1806,6 +1925,67 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libbatterylistener",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbatterylistener.so",
+            ],
+            shared_libs: [
+                "android.hardware.health@1.0",
+                "android.hardware.health@2.0",
+                "android.hardware.power@1.2",
+                "libaudioroute",
+                "libaudioutils",
+                "libbase",
+                "libcutils",
+                "libexpat",
+                "libhidlbase",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libbatterylistener.so",
+            ],
+            shared_libs: [
+                "android.hardware.health@1.0",
+                "android.hardware.health@2.0",
+                "android.hardware.power@1.2",
+                "libaudioroute",
+                "libaudioutils",
+                "libbase",
+                "libcutils",
+                "libexpat",
+                "libhidlbase",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libbluetooth_audio_session_qti",
     owner: "sony",
     strip: {
@@ -2230,6 +2410,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libcomprcapture",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libcomprcapture.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libcomprcapture.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libdevice_security_vendor",
     owner: "sony",
     strip: {
@@ -2350,6 +2579,55 @@ cc_prebuilt_library_shared {
                 "libhardware_legacy",
                 "libhardware",
                 "com.qualcomm.qti.dpm.api@1.0_vendor",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libexthwplugin",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libexthwplugin.so",
+            ],
+            shared_libs: [
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libexthwplugin.so",
+            ],
+            shared_libs: [
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
                 "libc++",
                 "libc",
                 "libm",
@@ -2779,6 +3057,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhdmiedid",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhdmiedid.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhdmiedid.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libhdmipassthru",
     owner: "sony",
     strip: {
@@ -2810,6 +3137,55 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libaudioparsers",
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libhfp",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhfp.so",
+            ],
+            shared_libs: [
+                "libaudioroute",
+                "libaudioutils",
+                "libcutils",
+                "libexpat",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhfp.so",
+            ],
+            shared_libs: [
                 "libaudioroute",
                 "libaudioutils",
                 "libcutils",
@@ -4227,6 +4603,55 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libsndmonitor",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libsndmonitor.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libsndmonitor.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libsnpe_dsp_domains_v2",
     owner: "sony",
     strip: {
@@ -4373,6 +4798,55 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "liblog",
                 "libaudioutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libspkrprot",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libspkrprot.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libspkrprot.so",
+            ],
+            shared_libs: [
+                "libaudioutils",
+                "libcutils",
+                "liblog",
+                "libtinyalsa",
+                "libtinycompress",
+                "libaudioroute",
+                "libexpat",
                 "libc++",
                 "libc",
                 "libm",
