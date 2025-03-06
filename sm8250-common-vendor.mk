@@ -393,6 +393,7 @@ PRODUCT_PACKAGES += \
     libq3dtools_esx \
     ftm_fm_lib \
     android.hardware.bluetooth@1.0-impl-qti \
+    audio.bluetooth.default \
     audio.primary.kona \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
