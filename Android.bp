@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/sony/sm8250-common",
         "hardware/qcom-caf/sm8250",
         "hardware/qcom-caf/wlan",
         "hardware/sony",
@@ -15446,7 +15447,7 @@ cc_prebuilt_library_shared {
             ],
             shared_libs: [
                 "libutils",
-                "libui",
+                "libui-v34",
                 "liblog",
                 "libcutils",
                 "libbinder",
@@ -15565,7 +15566,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libOpenCL",
                 "libcammw_util",
-                "libui",
+                "libui-v34",
                 "libutils",
                 "liblog",
                 "libGLESv3",
