@@ -497,6 +497,10 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     libvpt3d \
     libasphere \
+    libbundlewrapper1 \
+    libbundlewrapper2 \
+    libbundlewrapper3 \
+    libbundlewrapper4 \
     libshoebox \
     vendor.qti.data.slm@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
