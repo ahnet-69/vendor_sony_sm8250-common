@@ -508,16 +508,7 @@ PRODUCT_PACKAGES += \
     libHpEqApi \
     libMiscTaWrapper \
     libOARenderer \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAmrDec \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxQcelp13Dec \
     libOmxVpp \
-    libOmxWmaDec \
     libOpenCL \
     libQSEEComAPI \
     libSForceVSE \
@@ -651,13 +642,11 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.swiqi@1.0-impl \
     vendor.somc.hardware.swiqi@1.0 \
     libFileMux_proprietary \
-    libOmxDsdDec \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
     libaudiosnpewrapper \
     libcppf \
-    libdsd2pcm \
     libfastcrc \
     libmm-hdcpmgr \
     libsmwrapper \
