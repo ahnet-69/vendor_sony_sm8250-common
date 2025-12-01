@@ -611,6 +611,10 @@ PRODUCT_PACKAGES += \
     libwvtee \
     libwvdrmengine \
     libasphere \
+    libbundlewrapper1 \
+    libbundlewrapper2 \
+    libbundlewrapper3 \
+    libbundlewrapper4 \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
