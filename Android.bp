@@ -724,58 +724,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qteeconnector@1.0-impl",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libutils",
-                "liblog",
-                "vendor.qti.hardware.qteeconnector@1.0",
-                "libQSEEComAPI",
-                "libxml2",
-                "libion",
-                "libGPreqcancel_svc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "libutils",
-                "liblog",
-                "vendor.qti.hardware.qteeconnector@1.0",
-                "libQSEEComAPI",
-                "libxml2",
-                "libion",
-                "libGPreqcancel_svc",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "vulkan.adreno",
     owner: "sony",
     strip: {
@@ -3944,41 +3892,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libqrtr",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libqrtr.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libqrtr.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libqtigef",
     owner: "sony",
     strip: {
@@ -5580,49 +5493,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.qteeconnector@1.0",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -10947,7 +10817,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.sensorscalibrate@1.0-impl",
+    name: "vendor.qti.hardware.qteeconnector@1.0-impl",
     owner: "sony",
     strip: {
         none: true,
@@ -10955,17 +10825,17 @@ cc_prebuilt_library_shared {
     target: {
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so",
+                "proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so",
             ],
             shared_libs: [
                 "libhidlbase",
                 "libutils",
                 "liblog",
-                "libcutils",
-                "libhardware",
-                "libbase",
-                "vendor.qti.hardware.sensorscalibrate@1.0",
-                "libsensorcal",
+                "vendor.qti.hardware.qteeconnector@1.0",
+                "libQSEEComAPI",
+                "libxml2",
+                "libion",
+                "libGPreqcancel_svc",
                 "libc++",
                 "libc",
                 "libm",
@@ -13218,37 +13088,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libgdtap",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libgdtap.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "libgps.utils",
-                "liblog",
-                "libloc_core",
-                "libizat_core",
-                "liblbs_core",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libgeofencing",
     owner: "sony",
     strip: {
@@ -15136,6 +14975,30 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libqrtr",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libqrtr.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libqseed3",
     owner: "sony",
     strip: {
@@ -15751,37 +15614,6 @@ cc_prebuilt_library_shared {
                 "libc++",
                 "libdiag",
                 "libprotobuf-cpp-full-3.9.1-vendorcompat",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libslimclient",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libslimclient.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libgps.utils",
-                "liblog",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libqmi_encdec",
-                "libdiag",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -19357,6 +19189,34 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "vendor.qti.hardware.qteeconnector@1.0",
+    owner: "sony",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so",
+            ],
+            shared_libs: [
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.radio.am@1.0",
     owner: "sony",
     strip: {
@@ -20194,34 +20054,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "vendor.qti.hardware.sensorscalibrate@1.0",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so",
             ],
             shared_libs: [
                 "libhidlbase",
@@ -22962,51 +22794,6 @@ dex_import {
 }
 
 dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.0-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.1-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.imscmservice-V2.2-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.0-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "com.qualcomm.qti.uceservice-V2.1-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "dpmapi",
     owner: "sony",
     jars: [
@@ -23034,37 +22821,10 @@ dex_import {
 }
 
 dex_import {
-    name: "qti-telephony-common",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/qti-telephony-common.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.ims.callinfo-V1.0-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "vendor.qti.ims.factory-V2.0-java",
     owner: "sony",
     jars: [
         "proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "vendor.qti.ims.rcsconfig-V1.0-java",
-    owner: "sony",
-    jars: [
-        "proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar",
     ],
     system_ext_specific: true,
 }
@@ -23305,43 +23065,6 @@ cc_prebuilt_binary {
         none: true,
     },
     prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "android.hardware.authsecret@1.0-service-qti",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/android.hardware.authsecret@1.0-service-qti",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcrypto",
-                "libcutils",
-                "libbase",
-                "libutils",
-                "libhardware",
-                "libhwbinder",
-                "libhidlbase",
-                "libhidltransport",
-                "libkeymasterdeviceutils",
-                "libspcom",
-                "android.hardware.authsecret@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
     soc_specific: true,
 }
 
@@ -23778,37 +23501,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "liblog",
                 "vendor.qti.hardware.qteeconnector@1.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.qti.hardware.sensorscalibrate@1.0-service",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libcutils",
-                "libbase",
-                "libutils",
-                "libhidlbase",
-                "vendor.qti.hardware.sensorscalibrate@1.0",
                 "libc++",
                 "libc",
                 "libm",
@@ -25011,45 +24703,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "slim_daemon",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/slim_daemon",
-            ],
-            shared_libs: [
-                "libgps.utils",
-                "liblog",
-                "libdiag",
-                "libqmi_csi",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libqmi_encdec",
-                "libutils",
-                "libhidlbase",
-                "libsensorndkbridge",
-                "android.hardware.sensors@1.0",
-                "android.frameworks.sensorservice@1.0",
-                "libloc_api_v02",
-                "libloc_core",
-                "liblbs_core",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "sscrpcd",
     owner: "sony",
     target: {
@@ -25429,79 +25082,6 @@ cc_prebuilt_binary {
                 "libqcc_file_agent",
                 "libc++",
                 "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "xtwifi-client",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/xtwifi-client",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libcrypto",
-                "libz",
-                "libsqlite",
-                "libqmiservices",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libgps.utils",
-                "libloc_core",
-                "libizat_core",
-                "liblbs_core",
-                "libavservices_minijail",
-                "libgdtap",
-                "libasn1cper",
-                "libasn1crt",
-                "libasn1crtx",
-                "libxtwifi_server_protocol",
-                "libxtwifi_server_protocol_uri_v3",
-                "liblowi_client",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "xtwifi-inet-agent",
-    owner: "sony",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/xtwifi-inet-agent",
-            ],
-            shared_libs: [
-                "libc",
-                "libcutils",
-                "liblog",
-                "libcurl",
-                "libgps.utils",
-                "libavservices_minijail",
-                "libc++",
                 "libm",
                 "libdl",
             ],

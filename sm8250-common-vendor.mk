@@ -17,9 +17,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qti.dpmframework.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.location.xml \
-    vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
-    vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
-    vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.2-java.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/com.qualcomm.qti.izattools.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.qualcomm.qti.izattools.xml \
     vendor/sony/sm8250-common/proprietary/system_ext/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/dpmapi.xml \
@@ -56,8 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Hdmi_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_edo.qwsp \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/sm8250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -122,12 +117,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/idd.fstab:$(TARGET_COPY_OUT_VENDOR)/etc/idd.fstab \
     vendor/sony/sm8250-common/proprietary/vendor/etc/iddd_user.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd_user.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.authsecret@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.authsecret@1.0-service-qti.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -165,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
@@ -179,10 +169,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_cmd_mode_qsync_dsi_panel.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_2k_video_mode_qsync_dsi_panel.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml \
@@ -292,88 +279,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/stk3x3x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3x3x_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/config/wigig_sensing_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/wigig_sensing_0.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/nanopb.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel_cal.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_activity_recognition.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_activity_recognition.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_ambient_light.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_light.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_temperature.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_amd.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_aont.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_aont.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_basic_gestures.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_basic_gestures.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_bring_to_ear.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_bring_to_ear.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cal.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_client.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_client.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_cmc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmc.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_da_test.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_da_test.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_device_mode.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_mode.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_device_orient.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_orient.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_diag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_diag_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag_sensor.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_direct_channel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_direct_channel.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_dpc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dpc.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_ext_svc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ext_svc.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_facing.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_facing.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_fmv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_fmv.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_formatter.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_formatter.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_fw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_fw.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_game_rv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_game_rv.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_geomag_rv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_geomag_rv.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gravity.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_gyro.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_gyro_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro_cal.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_gyro_rot_matrix.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro_rot_matrix.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_hall.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_hall.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_heart_beat.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_heart_beat.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_heart_rate.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_heart_rate.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_hinge_angle.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_hinge_angle.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_humidity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_humidity.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_mag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_mag_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag_cal.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem1.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_offbody_detect.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_pedometer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pedometer.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_pedometer_wrist.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pedometer_wrist.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_physical_sensor_test.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_physical_sensor_test.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_pickup_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pickup_gesture.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_pose_6dof.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pose_6dof.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_ppg.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ppg.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_pressure.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pressure.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_proximity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_proximity.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_psmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_psmd.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_registry.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_registry.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_resampler.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_resampler.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_rgb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rgb.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_rmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rmd.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_rotv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rotv.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_sar.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sar.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_sensor_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sensor_temperature.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_sig_motion.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sig_motion.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_std.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_event_gated_sensor.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_std_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_sensor.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_std_type.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_type.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_step_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_step_detect.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_suid.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_suid.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_thermopile.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_thermopile.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_threshold.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_threshold.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_tilt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt_to_wake.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/sony/sm8250-common/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/sony/sm8250-common/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/sony/sm8250-common/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/regdb.bin \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
-    vendor/sony/sm8250-common/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_gmu.bin \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/a650_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a650_sqe.fw \
@@ -487,7 +399,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
-    vendor.qti.hardware.qteeconnector@1.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
@@ -561,7 +472,6 @@ PRODUCT_PACKAGES += \
     libqmi_cci \
     libqmi_encdec \
     libqmiservices \
-    libqrtr \
     libqtigef \
     libscveCommon \
     libscveCommon_stub \
@@ -600,7 +510,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fm@1.0_vendor \
-    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
@@ -768,7 +677,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
-    vendor.qti.hardware.sensorscalibrate@1.0-impl \
+    vendor.qti.hardware.qteeconnector@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     lib-imscmservice \
     lib-imsdpl \
@@ -842,7 +751,6 @@ PRODUCT_PACKAGES += \
     libets_teeclient_v2 \
     libexcal_core \
     libexcal_system \
-    libgdtap \
     libgeofencing \
     libgnss \
     libgnsspps \
@@ -909,6 +817,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_legacy \
+    libqrtr \
     libqseed3 \
     libqsocket \
     libqtikeymaster4 \
@@ -929,7 +838,6 @@ PRODUCT_PACKAGES += \
     libsensorcal \
     libsensorslog \
     libsettings \
-    libslimclient \
     libsns_device_mode_stub \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
@@ -1054,6 +962,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.qmi@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
@@ -1082,7 +991,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.1 \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
-    vendor.qti.hardware.sensorscalibrate@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0_vendor \
@@ -1197,18 +1105,10 @@ PRODUCT_PACKAGES += \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
-    com.qualcomm.qti.imscmservice-V2.0-java \
-    com.qualcomm.qti.imscmservice-V2.1-java \
-    com.qualcomm.qti.imscmservice-V2.2-java \
-    com.qualcomm.qti.uceservice-V2.0-java \
-    com.qualcomm.qti.uceservice-V2.1-java \
     dpmapi \
     embmslibrary \
     qcrilhook \
-    qti-telephony-common \
-    vendor.qti.ims.callinfo-V1.0-java \
     vendor.qti.ims.factory-V2.0-java \
-    vendor.qti.ims.rcsconfig-V1.0-java \
     android.hardware.gnss@2.1-service-qti.xml \
     android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
@@ -1220,7 +1120,6 @@ PRODUCT_PACKAGES += \
     chg-pwr-service \
     cnd \
     dpmQmiMgr \
-    android.hardware.authsecret@1.0-service-qti \
     android.hardware.biometrics.fingerprint@2.1-service-rbs \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
@@ -1234,7 +1133,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
-    vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.media.c2@1.0-service \
     vendor.semc.hardware.charger@1.0-service \
@@ -1272,7 +1170,6 @@ PRODUCT_PACKAGES += \
     qti \
     rmt_storage \
     sensors.qti \
-    slim_daemon \
     sscrpcd \
     ssgtzd \
     ssr_setup \
@@ -1286,8 +1183,6 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     wvkbd \
     xtra-daemon \
-    xtwifi-client \
-    xtwifi-inet-agent \
     dpmd \
     wfdservice \
     sony_ext_uim_ctrl
