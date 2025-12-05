@@ -493,8 +493,6 @@ PRODUCT_PACKAGES += \
     vulkan.adreno \
     libC2D2 \
     libCB \
-    libGPreqcancel \
-    libGPreqcancel_svc \
     libHpEqApi \
     libMiscTaWrapper \
     libOARenderer \
@@ -503,8 +501,6 @@ PRODUCT_PACKAGES += \
     libQSEEComAPI \
     libSForceVSE \
     libSNPE \
-    libSecureUILib \
-    libStDrvInt \
     libVkLayer_q3dtools \
     libacdb-fts \
     libacdbloader \
@@ -531,8 +527,6 @@ PRODUCT_PACKAGES += \
     libdevice_security_vendor \
     libdiag \
     libdpmqmihal \
-    libdrmfs \
-    libdrmtime \
     libfastcvdsp_stub \
     libfastcvopt \
     libgcs-calwrapper \
@@ -558,7 +552,6 @@ PRODUCT_PACKAGES += \
     libmmrtpdecoder_proprietary \
     libmmrtpencoder_proprietary \
     libmulawdec \
-    liboemcrypto \
     libops \
     libpfter \
     libqcodec2_base \
@@ -567,13 +560,11 @@ PRODUCT_PACKAGES += \
     libqcodec2_platform \
     libqcodec2_utils \
     libqcodec2_v4l2codec \
-    libqisl \
     libqmi_cci \
     libqmi_encdec \
     libqmiservices \
     libqrtr \
     libqtigef \
-    librpmb \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -581,14 +572,10 @@ PRODUCT_PACKAGES += \
     libscveObjectTracker \
     libscveObjectTracker_stub \
     libsdsprpc \
-    libsecureui \
-    libsecureui_svcsock \
     libsnpe_dsp_domains_v2 \
     libsoc_helper \
     libsony3daudioeffect \
     libsonydseehxwrapper \
-    libspl \
-    libssd \
     libstagefright_hdcp \
     libstagefright_soft_qtiflacdec \
     libsuntory \
@@ -596,15 +583,11 @@ PRODUCT_PACKAGES += \
     libsymphony-cpu \
     libsysmon_cdsp_skel \
     libta \
-    libtime_genoff \
     libvppclient \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
     libvpt3d \
-    libwvhidl \
-    libwvtee \
-    libwvdrmengine \
     libasphere \
     libbundlewrapper1 \
     libbundlewrapper2 \
@@ -633,7 +616,6 @@ PRODUCT_PACKAGES += \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
-    libcppf \
     libfastcrc \
     libmm-hdcpmgr \
     libsmwrapper \
@@ -805,9 +787,12 @@ PRODUCT_PACKAGES += \
     lib-uceservice \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
+    libGPreqcancel \
+    libGPreqcancel_svc \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libRbsFlow \
+    libStDrvInt \
     libarcsoft_bokeh_adapter \
     libarcsoft_dualcam_refocus_image \
     libarcsoft_dualcam_refocus_video \
@@ -852,6 +837,8 @@ PRODUCT_PACKAGES += \
     libdisplayqos \
     libdisplayskuutils \
     libdpps \
+    libdrmfs \
+    libdrmtime \
     libdsi_netctrl \
     libdsutils \
     libets_teeclient_v2 \
@@ -900,6 +887,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
+    liboemcrypto \
     libofflinelog \
     libos \
     libpdmapper \
@@ -916,6 +904,7 @@ PRODUCT_PACKAGES += \
     libqdi \
     libqdma_file_agent \
     libqdp \
+    libqisl \
     libqmi \
     libqmi_client_helper \
     libqmi_client_qmux \
@@ -933,6 +922,7 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     libril-qcril-hook-oem \
     librilqmiservices \
+    librpmb \
     libsdm-color \
     libsdm-colormgr-algo \
     libsdm-diag \
@@ -999,23 +989,29 @@ PRODUCT_PACKAGES += \
     libsony_naruto \
     libsony_stab \
     libspcom \
+    libspl \
     libssc \
     libssc_default_listener \
+    libssd \
     libsynx \
     libsys-utils \
     libsystem_health_mon \
     libthermal_engine \
     libthermalclient \
     libthreadutils \
+    libtime_genoff \
     libtinyxml2_1 \
     libtpm \
     libwms \
     libwqe \
+    libwvhidl \
+    libwvtee \
     libxml \
     libxtadapter \
     libxtwifi_server_protocol \
     libxtwifi_server_protocol_uri_v3 \
     local_libcamera_metadata \
+    libwvdrmengine \
     qcrild_librilutils \
     qtibus \
     qtimutex \
