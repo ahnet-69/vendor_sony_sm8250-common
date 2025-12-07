@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/Sony_edo_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_edo_Hdmi_cal.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_edo.qwsp \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/be_movie_spc:$(TARGET_COPY_OUT_VENDOR)/etc/be_movie_spc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -480,6 +481,7 @@ PRODUCT_PACKAGES += \
     libqmi_encdec \
     libqmiservices \
     libqtigef \
+    librebuffering \
     libscveCommon \
     libscveCommon_stub \
     libscveObjectSegmentation \
@@ -532,6 +534,7 @@ PRODUCT_PACKAGES += \
     libOmxVideoDSMode \
     libadm \
     libadpcmdec \
+    libaudiosnpewrapper \
     libfastcrc \
     libmm-hdcpmgr \
     libsmwrapper \
@@ -554,6 +557,9 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc_proprietary \
     libwfduibcsrcinterface_proprietary \
     libwfdutils_proprietary \
+    libznr \
+    libdnnrwrapper \
+    libznrwrapper \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     com.qti.eeprom.truly_cmb433 \
@@ -830,7 +836,6 @@ PRODUCT_PACKAGES += \
     libqsocket \
     libqtikeymaster4 \
     librcc \
-    librebuffering \
     libril-qc-hal-qmi \
     libril-qc-logger \
     libril-qc-ltedirectdisc \
