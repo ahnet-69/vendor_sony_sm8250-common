@@ -990,29 +990,29 @@ PRODUCT_PACKAGES += \
     vendor.somc.camera.device@3.4-impl \
     vendor.somc.camera.device@3.5-impl \
     vendor.somc.hardware.radio@1.0 \
-    capi_v2_aptX_CLHDADV_Encoder \
-    capi_v2_aptX_CLHDAD_Speech_Decoder \
-    libapps_mem_heap \
-    libbitml_nsp_skel \
-    libcamera_nn_skel \
-    libcvpdsp_skel \
-    libdspCV_skel \
-    libdsp_streamer_binning \
-    libfastcvadsp \
-    libfastcvdsp_skel \
-    libhalide_hexagon_remote_skel \
-    libhexagon_nn_skel \
-    libscveObjectSegmentation_skel \
-    libscveT2T_skel \
-    libsnpe_dsp_v66_domains_v2_skel \
-    libsns_device_mode_skel \
-    libsns_low_lat_stream_skel \
-    libsomc_alfortlpserv_skel \
-    libsomc_cornfrosty_skel \
-    libsomc_donutscmnserv_skel \
-    libsomc_milkyrollserv_skel \
-    libsomc_pdnserv_skel \
-    libstdc++ \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDADV_Encoder_so \
+    vendor_lib_rfsa_adsp_capi_v2_aptX_CLHDAD_Speech_Decoder_so \
+    vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libbitml_nsp_skel_so \
+    vendor_lib_rfsa_adsp_libcamera_nn_skel_so \
+    vendor_lib_rfsa_adsp_libcvpdsp_skel_so \
+    vendor_lib_rfsa_adsp_libdspCV_skel_so \
+    vendor_lib_rfsa_adsp_libdsp_streamer_binning_so \
+    vendor_lib_rfsa_adsp_libfastcvadsp_so \
+    vendor_lib_rfsa_adsp_libfastcvdsp_skel_so \
+    vendor_lib_rfsa_adsp_libhalide_hexagon_remote_skel_so \
+    vendor_lib_rfsa_adsp_libhexagon_nn_skel_so \
+    vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
+    vendor_lib_rfsa_adsp_libscveT2T_skel_so \
+    vendor_lib_rfsa_adsp_libsnpe_dsp_v66_domains_v2_skel_so \
+    vendor_lib_rfsa_adsp_libsns_device_mode_skel_so \
+    vendor_lib_rfsa_adsp_libsns_low_lat_stream_skel_so \
+    vendor_lib_rfsa_adsp_libsomc_alfortlpserv_skel_so \
+    vendor_lib_rfsa_adsp_libsomc_cornfrosty_skel_so \
+    vendor_lib_rfsa_adsp_libsomc_donutscmnserv_skel_so \
+    vendor_lib_rfsa_adsp_libsomc_milkyrollserv_skel_so \
+    vendor_lib_rfsa_adsp_libsomc_pdnserv_skel_so \
+    vendor_lib_rfsa_adsp_libstdc++_so \
     com.qualcomm.qti.ant@1.0 \
     fm_helium \
     libfm-hci \
