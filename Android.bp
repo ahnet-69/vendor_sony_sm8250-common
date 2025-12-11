@@ -4,6 +4,7 @@
 
 soong_namespace {
     imports: [
+        "device/sony/sm8250-common",
         "hardware/qcom-caf/sm8250",
         "hardware/qcom-caf/wlan",
         "hardware/sony",
@@ -12552,7 +12553,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
