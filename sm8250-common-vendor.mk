@@ -522,7 +522,6 @@ PRODUCT_PACKAGES += \
     vendor.somc.hardware.security.secd@1.1 \
     vendor.somc.hardware.swiqi@1.0-impl \
     vendor.somc.hardware.swiqi@1.0 \
-    libOmxVideoDSMode \
     libadm \
     libadpcmdec \
     libaudiosnpewrapper \
