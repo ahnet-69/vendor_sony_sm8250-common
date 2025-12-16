@@ -1111,65 +1111,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libOmxVpp",
-    owner: "sony",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libOmxVpp.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libbinder",
-                "libcutils",
-                "libOmxCore",
-                "libvppclient",
-                "vendor.qti.hardware.vpp@1.1",
-                "vendor.qti.hardware.vpp@1.2",
-                "vendor.qti.hardware.capabilityconfigstore@1.0",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libOmxVpp.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libbinder",
-                "libcutils",
-                "libOmxCore",
-                "libvppclient",
-                "vendor.qti.hardware.vpp@1.1",
-                "vendor.qti.hardware.vpp@1.2",
-                "vendor.qti.hardware.capabilityconfigstore@1.0",
-                "libhidlbase",
-                "libhidltransport",
-                "libhwbinder",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libOpenCL",
     owner: "sony",
     strip: {
