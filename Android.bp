@@ -12552,7 +12552,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2_1",
+                "libtinyxml2",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
